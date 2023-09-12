@@ -1,4 +1,5 @@
 import './cart.css'
+import PropTypes from 'prop-types'; // ES6
 
 const Cart = ({cart}) => {
     return (
@@ -13,4 +14,7 @@ const Cart = ({cart}) => {
     );
 };
 
+Cart.PropTypes={
+    cart:PropTypes.array.isRequired
+}
 export default Cart;
