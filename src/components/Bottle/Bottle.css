@@ -1,0 +1,14 @@
+.Bottle-container{
+background: linear-gradient(to left,#ffc,#fff);
+    box-shadow: 10px 5px 5px  5px #150F2D;
+    padding: 12px;
+    border-radius: 25px;
+    margin: 30 px;
+
+}
+.Bottle-container img{
+max-width: 200px;
+}
+.btn{
+    background-color: rgb(205, 136, 223);
+}
